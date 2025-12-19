@@ -1,11 +1,10 @@
-// 로그인 폼 제출
 document.getElementById('loginForm').addEventListener('submit', async function(e) {
     e.preventDefault();
-    
+
     const username = document.getElementById('username').value;
     const password = document.getElementById('password').value;
     const errorMessage = document.getElementById('errorMessage');
-    
+
     // 서버로 전송
     await fetch('/api/login', {
         method: 'POST',
@@ -14,7 +13,7 @@ document.getElementById('loginForm').addEventListener('submit', async function(e
         },
         body: JSON.stringify({ username, password })
     });
-    
+
     // 에러 메시지 표시
     errorMessage.classList.add('show');
 });
